@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "ag-psd": "^20.0.0",
+    "canvas": "^2.11.2",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "psd": "^3.4.0",
+    "psd.js": "^3.9.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "replpsd",
+  "version": "1.0.0",
+  "main": "psd-to-jpg.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

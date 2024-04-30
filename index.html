@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Carga</title>
+</head>
+<body>
+    <form action="/write" method="post" enctype="multipart/form-data">
+        <label for="first_name">Nombre:</label>
+        <input type="text" id="first_name" name="first_name"><br><br>
+        
+        <label for="last_name">Apellido:</label>
+        <input type="text" id="last_name" name="last_name"><br><br>
+        
+        <label for="psd_file">Adjuntar archivo PSD:</label>
+        <input type="file" id="psd_file" name="psd_file" accept=".psd"><br><br>
+
+        <label for="profile_image">Adjuntar imagen de perfil:</label>
+        <input type="file" id="profile_image" name="profile_image" accept="image/*"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
